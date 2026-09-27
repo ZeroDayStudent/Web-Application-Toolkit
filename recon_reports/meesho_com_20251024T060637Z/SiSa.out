@@ -1,0 +1,25 @@
+;; Warning, extra type option
+;; Warning, extra type option
+;; Warning, extra type option
+;; Warning, extra type option
+;; Warning, extra type option
+;; communications error to 2409:40f4:102d:bf82::f1#53: host unreachable
+;; communications error to 2409:40f4:102d:bf82::f1#53: host unreachable
+;; communications error to 2409:40f4:102d:bf82::f1#53: host unreachable
+;; Connection to 2409:40f4:102d:bf82::f1#53(2409:40f4:102d:bf82::f1) for meesho.com failed: host unreachable.
+meesho.com.		3597	IN	TXT	"atlassian-domain-verification=Z/tAUcOPhPIzLkarqaIsGcnuFlVNqEzytkORdNGH9oKqVURaRGTDeIjRmB1v5f3G"
+meesho.com.		3597	IN	TXT	"cursor-domain-verification-97w19r=M6W8WcMkqzqYvNbzisntpi9Qg"
+meesho.com.		3597	IN	TXT	"google-site-verification=6p8rVto8MUh-83oooq1FPmtWYjG1nwmA3kRJunLEBWs"
+meesho.com.		3597	IN	TXT	"google-site-verification=rI5Pt5AdNdd7C2zoHnK96hj4BTG8kjz5xCFPRMHXh_Q"
+meesho.com.		3597	IN	TXT	"apple-domain-verification=zf3whHpcJjkXxtvq"
+meesho.com.		3597	IN	TXT	"v=spf1 a mx include:spf.mtasv.net include:_spf.google.com include:mail.zendesk.com include:oraclecloud.com include:email.freshdesk.com include:1278314a1.spf2.netcorecloud.net include:_spf.psm.knowbe4.com include:zsend.in ip4:34.1.200.174 ~all"
+meesho.com.		3597	IN	TXT	"asv=99dd922cd12f20f62cc3f12ed8b774c2"
+meesho.com.		3597	IN	TXT	"mixpanel-domain-verify=4e03ce88-de12-4aff-9419-8cba4645c18b"
+meesho.com.		3597	IN	TXT	"ca3-1c16a08ec04f4311b558b44986fb1115"
+meesho.com.		3597	IN	TXT	"postman-domain-verification=f9519eaf0918e0935ea5fdacb7015b95cd779a14a900d77ce51174aca008251e63ffd912758e9661626161c4d4347a537624d8f08f1e7ac20867955cd88ffe94"
+meesho.com.		3597	IN	TXT	"google-site-verification=f4W3Rn7BSIoD3X1S5piNtQGkcT8604Eocgk9doWCAiw"
+meesho.com.		3597	IN	TXT	"h1-domain-verification=qhN6Z482zsQoJsfpE1ErK42jy4x8poD75XWhn9zQp6N1nBt2"
+meesho.com.		3597	IN	TXT	"google-site-verification=G8djpQ-Bxes3ZU-O7XHl0XeFdU88xYcRPR4OeAdyv5I"
+meesho.com.		3597	IN	TXT	"MS=ms52804380"
+meesho.com.		3597	IN	TXT	"openai-domain-verification=dv-sky3IJDjUfoxPCRTf8mXXfAQ"
+meesho.com.		3597	IN	TXT	"facebook-domain-verification=3p6cm1otddc1rqkdc5m9hbvbceb5v2"
