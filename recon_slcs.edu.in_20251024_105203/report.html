@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reconnaissance Report - slcs.edu.in</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        .header .subtitle {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+        .content {
+            padding: 30px;
+        }
+        .section {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-left: 4px solid #007cba;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+        .section h2 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .data-box {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px 0;
+            border: 1px solid #e9ecef;
+        }
+        .clean-data {
+            font-family: 'Courier New', monospace;
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            font-size: 0.9em;
+        }
+        .status-good {
+            color: #28a745;
+            font-weight: bold;
+        }
+        .status-warning {
+            color: #ffc107;
+            font-weight: bold;
+        }
+        .status-error {
+            color: #dc3545;
+            font-weight: bold;
+        }
+        .tool-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 15px 0;
+        }
+        .tool-card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            border: 2px solid #e9ecef;
+            transition: transform 0.2s;
+        }
+        .tool-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .tool-available {
+            border-color: #28a745;
+            background: #f8fff9;
+        }
+        .tool-missing {
+            border-color: #dc3545;
+            background: #fff8f8;
+        }
+        .summary-box {
+            background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🕵️ Reconnaissance Report</h1>
+            <div class="subtitle">
+                Target: <strong>slcs.edu.in</strong> | 
+                Generated: <strong>Fri Oct 24 10:52:03 AM PDT 2025</strong>
+            </div>
+        </div>
+        <div class="content">
+            <div class="section">
+                <h2>🎯 Target Status</h2>
+                <div class='data-box'><p class='status-good'>✅ Target is reachable</p></div>
+            </div>
+            <div class="section">
+                <h2>🔧 Tool Availability</h2>
+                <div class='tool-grid'><div class='tool-card tool-available'>✅ whois</div><div class='tool-card tool-available'>✅ dig</div><div class='tool-card tool-available'>✅ nslookup</div><div class='tool-card tool-available'>✅ curl</div><div class='tool-card tool-available'>✅ nmap</div><div class='tool-card tool-available'>✅ ping</div></div>
+            </div>
+            <div class="section">
+                <h2>📋 WHOIS Information</h2>
+                <div class='data-box'><div class='clean-data'>Registry Domain ID: D414400000006616281-IN
+Registrar URL: http://www.ernet.in
+Updated Date: 2022-09-08T09:34:22.126Z
+Creation Date: 2018-09-04T05:53:46.024Z
+Registry Expiry Date: 2027-09-04T05:53:46.024Z
+Registrar: ERNET India
+Registrar IANA ID: 800068
+Registrar Abuse Contact Email: tejalt@eis.ernet.in
+Registrar Abuse Contact Phone: +91.1123358248
+Domain Status: ok https://icann.org/epp#ok
+Registry Registrant ID: REDACTED FOR PRIVACY
+Registrant Name: REDACTED FOR PRIVACY
+Registrant Organization: Subbalakshmi Lakshmipathy College of Science
+Registrant Street: REDACTED FOR PRIVACY
+Registrant City: REDACTED FOR PRIVACY
+Registrant State/Province: 
+Registrant Postal Code: REDACTED FOR PRIVACY
+Registrant Country: IN
+Registrant Phone: REDACTED FOR PRIVACY
+Registrant Fax: REDACTED FOR PRIVACY
+Registrant Email: Please query the RDDS service of the Registrar of Record identified in this output for information on how to contact the Registrant, Admin, or Tech contact of the queried domain name.
+Registry Admin ID: REDACTED FOR PRIVACY
+Admin Name: REDACTED FOR PRIVACY
+Admin Organization: REDACTED FOR PRIVACY
+Admin Street: REDACTED FOR PRIVACY
+Admin City: REDACTED FOR PRIVACY
+Admin State/Province: REDACTED FOR PRIVACY
+Admin Postal Code: REDACTED FOR PRIVACY
+Admin Country: REDACTED FOR PRIVACY
+Admin Phone: REDACTED FOR PRIVACY</div></div>
+            </div>
+            <div class="section">
+                <h2>🌐 DNS Information</h2>
+                <h3>DNS Records (nslookup)</h3><div class='data-box'><div class='clean-data'>Server:		10.10.1.1
+Address:	10.10.1.1#53
+
+Non-authoritative answer:
+Name:	slcs.edu.in
+Address: 64.202.189.97</div></div><h3>Quick DNS Scan</h3><div class='data-box'><strong>A Records:</strong><br><div class='clean-data'>64.202.189.97</div></div><div class='data-box'><p class='status-good'>✅ Domain is registered and has DNS records</p></div>
+            </div>
+            <div class="section">
+                <h2>🔗 HTTP Services</h2>
+                <h3>HTTP Service (Port 80)</h3><div class='data-box'><div class='clean-data'>HTTP/1.1 301 Moved Permanently
+Date: Fri, 24 Oct 2025 17:52:05 GMT
+Server: Apache
+X-Redirect-By: WordPress
+Set-Cookie: lp_session_guest=g-68fbbcc641309; expires=Sat, 25-Oct-2025 17:52:06 GMT; Max-Age=86400; path=/; HttpOnly
+Location: https://slcs.edu.in/
+Content-Type: text/html; charset=UTF-8
+</div></div><h3>HTTPS Service (Port 443)</h3><div class='data-box'><div class='clean-data'>HTTP/1.1 200 OK
+Date: Fri, 24 Oct 2025 17:52:08 GMT
+Server: Apache
+Link: &lt;https://slcs.edu.in/wp-json/&gt;; rel=&quot;https://api.w.org/&quot;, &lt;https://slcs.edu.in/wp-json/wp/v2/pages/8583&gt;; rel=&quot;alternate&quot;; title=&quot;JSON&quot;; type=&quot;application/json&quot;, &lt;https://slcs.edu.in/&gt;; rel=shortlink
+Set-Cookie: lp_session_guest=g-68fbbcc8d0bc3; expires=Sat, 25-Oct-2025 17:52:08 GMT; Max-Age=86400; path=/; secure; HttpOnly
+Content-Type: text/html; charset=UTF-8
+</div></div>
+            </div>
+            <div class="section">
+                <h2>🔍 Port Scan</h2>
+                <div class='data-box'><div class='clean-data'>Starting Nmap 7.95 ( https://nmap.org ) at 2025-10-24 10:52 PDT
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 7.97 seconds</div></div>
+            </div>
+            <div class="section">
+                <h2>📊 Summary</h2>
+                <div class='summary-box'><h3>Scan Summary</h3><p><strong>Target:</strong> slcs.edu.in</p><p><strong>Scan Time:</strong> Fri Oct 24 10:52:20 AM PDT 2025</p><p><strong>Report Location:</strong> recon_slcs.edu.in_20251024_105203/report.html</p><p><strong>Note:</strong> Always ensure proper authorization before scanning targets.</p></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

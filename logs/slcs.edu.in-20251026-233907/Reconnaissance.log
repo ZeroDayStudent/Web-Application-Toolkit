@@ -1,0 +1,29 @@
+[0;32m
+======================================
+        RECONNAISSANCE
+======================================
+[0m
+[0;34m[+] Target: slcs.edu.in[0m
+[0;34m[+] Output directory: recon_slcs.edu.in_20251026_233908[0m
+[0;34m[+] HTML Report: recon_slcs.edu.in_20251026_233908/report.html[0m
+
+[0;33m[1] Checking target status...[0m
+[0;33m[*] Checking target reachability...[0m
+[0;32m[+] Target is reachable via ping[0m
+[0;33m[2] Checking tool availability...[0m
+[0;33m[3] Running WHOIS lookup...[0m
+[0;32m[+] WHOIS completed (cleaned output)[0m
+[0;33m[4] Running DNS reconnaissance...[0m
+[0;33m[5] Checking HTTP services...[0m
+[0;33m[6] Quick port scan...[0m
+
+[0;34m[-] Running quick nmap scan...[0m
+[0;32m[+] Port scan completed[0m
+[0;32m
+======================================
+         SCAN COMPLETED
+======================================
+[0m
+[0;32m[+] HTML Report generated: recon_slcs.edu.in_20251026_233908/report.html[0m
+[0;32m[+] Open the report with:[0m
+    [0;34mxdg-open "recon_slcs.edu.in_20251026_233908/report.html"[0m

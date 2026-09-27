@@ -1,0 +1,33 @@
+Nameservers for meesho.com:
+;; communications error to 2409:40f4:102d:bf82::f1#53: host unreachable
+;; communications error to 2409:40f4:102d:bf82::f1#53: host unreachable
+;; communications error to 2409:40f4:102d:bf82::f1#53: host unreachable
+ns-cloud-e1.googledomains.com.
+ns-cloud-e2.googledomains.com.
+ns-cloud-e4.googledomains.com.
+ns-cloud-e3.googledomains.com.
+
+---- AXFR attempt: ;; communications error to 2409:40f4:102d:bf82::f1#53: host unreachable ----
+dig: couldn't get address for ';; communications error to 2409:40f4:102d:bf82::f1#53: host unreachable': not found
+[!] AXFR failed or timed out for ;; communications error to 2409:40f4:102d:bf82::f1#53: host unreachable
+
+---- AXFR attempt: ;; communications error to 2409:40f4:102d:bf82::f1#53: host unreachable ----
+dig: couldn't get address for ';; communications error to 2409:40f4:102d:bf82::f1#53: host unreachable': not found
+[!] AXFR failed or timed out for ;; communications error to 2409:40f4:102d:bf82::f1#53: host unreachable
+
+---- AXFR attempt: ;; communications error to 2409:40f4:102d:bf82::f1#53: host unreachable ----
+dig: couldn't get address for ';; communications error to 2409:40f4:102d:bf82::f1#53: host unreachable': not found
+[!] AXFR failed or timed out for ;; communications error to 2409:40f4:102d:bf82::f1#53: host unreachable
+
+---- AXFR attempt: ns-cloud-e1.googledomains.com ----
+[!] AXFR failed or timed out for ns-cloud-e1.googledomains.com
+
+---- AXFR attempt: ns-cloud-e2.googledomains.com ----
+[!] AXFR failed or timed out for ns-cloud-e2.googledomains.com
+
+---- AXFR attempt: ns-cloud-e4.googledomains.com ----
+[!] AXFR failed or timed out for ns-cloud-e4.googledomains.com
+
+---- AXFR attempt: ns-cloud-e3.googledomains.com ----
+[!] AXFR failed or timed out for ns-cloud-e3.googledomains.com
+

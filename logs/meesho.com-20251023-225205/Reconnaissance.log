@@ -1,0 +1,10 @@
+[22:52:07] [+] Starting reconnaissance on meesho.com...
+[22:52:07] [+] Reports will be saved in: ./recon_reports/meesho.com_20251024T055207Z
+
+Select reconnaissance mode:
+1) Passive reconnaissance
+2) Active reconnaissance
+3) Full reconnaissance (Passive + Active)
+Enter choice [1-3]: [22:52:15] [+] Running full reconnaissance...
+[22:52:15] [+] Running WHOIS scan...
+/home/kali/webkit/modules/recon.sh: line 32: $1: unbound variable

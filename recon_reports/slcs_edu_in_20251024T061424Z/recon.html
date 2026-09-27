@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Recon Report - slcs.edu.in</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #ffffff; color: #111; margin: 20px; }
+  h1 { font-size: 28px; margin-bottom: 2px; color: #0b63b6; }
+  .meta { color: #666; margin-bottom: 16px; }
+  h2 { color: #0b63b6; margin-top: 22px; border-bottom: 2px solid #e6e6e6; padding-bottom: 6px; }
+  .panel { background: #1f2327; color: #e9eef2; padding: 12px 14px; border-radius: 4px; margin-top: 10px; font-family: "Courier New", monospace; white-space: pre-wrap; overflow-x:auto; }
+  .note { font-size: 13px; color: #888; margin-top: 18px; }
+</style>
+</head>
+<body>
+<h1>Reconnaissance Report</h1>
+<div class="meta">
+  <b>Target:</b> slcs.edu.in<br>
+  <b>Generated:</b> 20251024T061424Z<br>
+  <b>Workdir:</b> ./recon_reports/slcs_edu_in_20251024T061424Z
+</div>
+<h2>WHOIS Scan</h2>
+<div class='panel'>
+getaddrinfo(whois.registry.in): Name or service not known
+[!] WHOIS command failed
+</div>
+<h2>DNS Lookup Scan</h2>
+<div class='panel'>
+;; Connection to 2409:40f4:102d:bf82::f1#53(2409:40f4:102d:bf82::f1) for slcs.edu.in failed: host unreachable.
+;; no servers could be reached
+;; Connection to 2409:40f4:102d:bf82::f1#53(2409:40f4:102d:bf82::f1) for slcs.edu.in failed: host unreachable.
+;; no servers could be reached
+;; Connection to 2409:40f4:102d:bf82::f1#53(2409:40f4:102d:bf82::f1) for slcs.edu.in failed: host unreachable.
+slcs.edu.in.		9878	IN	A	64.202.189.97
+slcs.edu.in.		9878	IN	AAAA	64:ff9b::40ca:bd61
+</div>
+<h2>Nmap Scan</h2>
+<div class='panel'>
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-10-23 23:14 PDT
+setup_target: failed to determine route to slcs.edu.in (64.202.189.97)
+WARNING: No targets were specified, so 0 hosts scanned.
+Nmap done: 0 IP addresses (0 hosts up) scanned in 3.25 seconds
+</div>
+<h2>Nikto Scan</h2>
+<div class='panel'>
+- Nikto v2.5.0
+---------------------------------------------------------------------------
++ Multiple IPs found: 64.202.189.97, 64:ff9b::40ca:bd61
+---------------------------------------------------------------------------
++ 0 host(s) tested
+</div>
+<h2>AXFR Scan</h2>
+<div class='panel'>
+;; Connection to 64:ff9b::40ca:bd61#53(64:ff9b::40ca:bd61) for slcs.edu.in failed: timed out.
+;; no servers could be reached
+;; Connection to 64:ff9b::40ca:bd61#53(64:ff9b::40ca:bd61) for slcs.edu.in failed: timed out.
+;; no servers could be reached
+;; Connection to 64:ff9b::40ca:bd61#53(64:ff9b::40ca:bd61) for slcs.edu.in failed: host unreachable.
+;; no servers could be reached
+[!] AXFR command failed
+</div>
+<h2>TestSSL Scan</h2>
+<div class='panel'>
+/home/kali/webkit/modules/recon.sh: line 62: testssl.sh: command not found
+[!] TestSSL command failed
+</div>
+<hr>
+<p class="note"><em>This is an auto-generated reconnaissance report. Only basic passive and active tools were used. Customize or extend this script for deeper testing.</em></p>
+</body>
+</html>

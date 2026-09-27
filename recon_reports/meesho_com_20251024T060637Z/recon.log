@@ -1,0 +1,17 @@
+[23:06:37] [+] Target: meesho.com
+[23:06:37] [+] FAST mode: false
+[23:06:37] [+] Reports -> ./recon_reports/meesho_com_20251024T060637Z
+[23:06:37] [+] START WHOIS
+[23:06:37] [+] START dig primary records
+[23:06:37] [+] START dig ANY
+[23:06:37] [+] START curl HTTP
+[23:06:37] [+] START curl HTTPS
+[23:06:41] [+] END   curl HTTP -> ./recon_reports/meesho_com_20251024T060637Z/Ku3d.out
+[23:06:41] [+] END   curl HTTPS -> ./recon_reports/meesho_com_20251024T060637Z/LXpq.out
+[23:06:42] [+] START curl GET
+[23:06:42] [+] START openssl s_client
+[23:06:47] [+] END   dig ANY -> ./recon_reports/meesho_com_20251024T060637Z/GqPI.out
+[23:06:50] [+] END   dig primary records -> ./recon_reports/meesho_com_20251024T060637Z/SiSa.out
+[23:07:02] [+] END   curl GET -> ./recon_reports/meesho_com_20251024T060637Z/zsRo.out
+[23:07:37] [+] END   WHOIS -> ./recon_reports/meesho_com_20251024T060637Z/ic1i.out
+[23:07:42] [+] END   openssl s_client -> ./recon_reports/meesho_com_20251024T060637Z/lORy.out

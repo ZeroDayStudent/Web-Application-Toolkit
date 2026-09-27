@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Recon Report - meesho.com</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #ffffff; color: #111; margin: 20px; }
+  h1 { font-size: 28px; margin-bottom: 2px; color: #0b63b6; }
+  .meta { color: #666; margin-bottom: 16px; }
+  h2 { color: #0b63b6; margin-top: 22px; border-bottom: 2px solid #e6e6e6; padding-bottom: 6px; }
+  .panel { background: #1f2327; color: #e9eef2; padding: 12px 14px; border-radius: 4px; margin-top: 10px; font-family: "Courier New", monospace; white-space: pre-wrap; overflow-x:auto; }
+  .note { font-size: 13px; color: #888; margin-top: 18px; }
+</style>
+</head>
+<body>
+<h1>Reconnaissance Report</h1>
+<div class="meta">
+  <b>Target:</b> meesho.com<br>
+  <b>Generated:</b> 20251024T063129Z<br>
+  <b>Workdir:</b> ./recon_reports/meesho_com_20251024T063129Z
+</div>
+<h2>WHOIS Scan</h2>
+<div class='panel'>
+Timeout.
+[!] WHOIS command failed
+</div>
+<h2>DNS Lookup Scan</h2>
+<div class='panel'>
+;; Connection to 2409:40f4:102d:bf82::f1#53(2409:40f4:102d:bf82::f1) for meesho.com failed: host unreachable.
+;; no servers could be reached
+;; Connection to 2409:40f4:102d:bf82::f1#53(2409:40f4:102d:bf82::f1) for meesho.com failed: host unreachable.
+;; no servers could be reached
+;; Connection to 2409:40f4:102d:bf82::f1#53(2409:40f4:102d:bf82::f1) for meesho.com failed: host unreachable.
+meesho.com.		1755	IN	TXT	"facebook-domain-verification=3p6cm1otddc1rqkdc5m9hbvbceb5v2"
+meesho.com.		1755	IN	TXT	"google-site-verification=6p8rVto8MUh-83oooq1FPmtWYjG1nwmA3kRJunLEBWs"
+meesho.com.		1755	IN	TXT	"google-site-verification=rI5Pt5AdNdd7C2zoHnK96hj4BTG8kjz5xCFPRMHXh_Q"
+meesho.com.		1755	IN	TXT	"ca3-1c16a08ec04f4311b558b44986fb1115"
+meesho.com.		1755	IN	TXT	"google-site-verification=G8djpQ-Bxes3ZU-O7XHl0XeFdU88xYcRPR4OeAdyv5I"
+meesho.com.		1755	IN	TXT	"asv=99dd922cd12f20f62cc3f12ed8b774c2"
+meesho.com.		1755	IN	TXT	"apple-domain-verification=zf3whHpcJjkXxtvq"
+meesho.com.		1755	IN	TXT	"cursor-domain-verification-97w19r=M6W8WcMkqzqYvNbzisntpi9Qg"
+meesho.com.		1755	IN	TXT	"mixpanel-domain-verify=4e03ce88-de12-4aff-9419-8cba4645c18b"
+meesho.com.		1755	IN	TXT	"google-site-verification=f4W3Rn7BSIoD3X1S5piNtQGkcT8604Eocgk9doWCAiw"
+meesho.com.		1755	IN	TXT	"h1-domain-verification=qhN6Z482zsQoJsfpE1ErK42jy4x8poD75XWhn9zQp6N1nBt2"
+meesho.com.		1755	IN	TXT	"openai-domain-verification=dv-sky3IJDjUfoxPCRTf8mXXfAQ"
+meesho.com.		1755	IN	TXT	"MS=ms52804380"
+meesho.com.		1755	IN	TXT	"postman-domain-verification=f9519eaf0918e0935ea5fdacb7015b95cd779a14a900d77ce51174aca008251e63ffd912758e9661626161c4d4347a537624d8f08f1e7ac20867955cd88ffe94"
+meesho.com.		1755	IN	TXT	"atlassian-domain-verification=Z/tAUcOPhPIzLkarqaIsGcnuFlVNqEzytkORdNGH9oKqVURaRGTDeIjRmB1v5f3G"
+meesho.com.		1755	IN	TXT	"v=spf1 a mx include:spf.mtasv.net include:_spf.google.com include:mail.zendesk.com include:oraclecloud.com include:email.freshdesk.com include:1278314a1.spf2.netcorecloud.net include:_spf.psm.knowbe4.com include:zsend.in ip4:34.1.200.174 ~all"
+meesho.com.		1	IN	MX	5 alt2.aspmx.l.google.com.
+meesho.com.		1	IN	MX	10 aspmx3.googlemail.com.
+meesho.com.		1	IN	MX	5 alt1.aspmx.l.google.com.
+meesho.com.		1	IN	MX	1 aspmx.l.google.com.
+meesho.com.		1	IN	MX	10 aspmx2.googlemail.com.
+meesho.com.		18306	IN	SOA	ns-cloud-e1.googledomains.com. cloud-dns-hostmaster.google.com. 2 21600 3600 259200 300
+meesho.com.		18306	IN	NS	ns-cloud-e3.googledomains.com.
+meesho.com.		18306	IN	NS	ns-cloud-e2.googledomains.com.
+meesho.com.		18306	IN	NS	ns-cloud-e4.googledomains.com.
+meesho.com.		18306	IN	NS	ns-cloud-e1.googledomains.com.
+meesho.com.		1	IN	A	34.49.140.161
+</div>
+<h2>Nmap Scan</h2>
+<div class='panel'>
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-10-23 23:32 PDT
+setup_target: failed to determine route to meesho.com (34.49.140.161)
+WARNING: No targets were specified, so 0 hosts scanned.
+Nmap done: 0 IP addresses (0 hosts up) scanned in 3.86 seconds
+</div>
+<h2>Nikto Scan</h2>
+<div class='panel'>
+- Nikto v2.5.0
+---------------------------------------------------------------------------
++ Multiple IPs found: 34.49.140.161, 64:ff9b::2231:8ca1
+---------------------------------------------------------------------------
++ 0 host(s) tested
+</div>
+<h2>AXFR Scan</h2>
+<div class='panel'>
+;; Connection to 64:ff9b::2231:8ca1#53(64:ff9b::2231:8ca1) for meesho.com failed: timed out.
+;; no servers could be reached
+;; Connection to 64:ff9b::2231:8ca1#53(64:ff9b::2231:8ca1) for meesho.com failed: timed out.
+;; no servers could be reached
+;; Connection to 64:ff9b::2231:8ca1#53(64:ff9b::2231:8ca1) for meesho.com failed: host unreachable.
+;; no servers could be reached
+[!] AXFR command failed
+</div>
+<h2>TestSSL Scan</h2>
+<div class='panel'>
+./recon.sh: line 62: testssl.sh: command not found
+[!] TestSSL command failed
+</div>
+<hr>
+<p class="note"><em>This is an auto-generated reconnaissance report. Only basic passive and active tools were used. Customize or extend this script for deeper testing.</em></p>
+</body>
+</html>
